@@ -1,7 +1,7 @@
 let listaNumerosSorteados = [];
 let numeroSecreto = generarNumeroSecreto();
 let intentos = 0;
-let numeroMaximo = 100;
+let numeroMaximo = 50;
 
 function generarNumeroSecreto() {
     let numeroGenerado = Math.floor(Math.random() * 100) + 1;
