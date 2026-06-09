@@ -45,7 +45,7 @@ function limpiarCaja() {
 function reiniciarJuego() {
     numeroSecreto = generarNumeroSecreto();
     intentos = 1;
-    asignarTextoElemento('h1', '¿Cuál es el número secreto?');
+    asignarTextoElemento('h1', '¿Juego de los Numeros Secretos?');
     asignarTextoElemento('.texto__parrafo', 'Indica un número del 1 al 100');
     document.getElementById('reiniciar').setAttribute('disabled', true);
     limpiarCaja();
